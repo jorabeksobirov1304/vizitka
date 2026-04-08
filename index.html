@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talaba Yordamchi | @talabayordamchi_n1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #020617;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
 
+        .glass-card {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            max-width: 400px;
+            border-radius: 40px;
+            box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.8);
+            overflow: hidden;
+            position: relative;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            padding: 50px 20px 70px;
+            text-align: center;
+            color: white;
+            clip-path: ellipse(150% 100% at 50% 0%);
+        }
+
+        .profile-container {
+            width: 120px;
+            height: 120px;
+            background: #ffffff;
+            border-radius: 40px;
+            margin: -60px auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            position: relative;
+            z-index: 20;
+            transform: rotate(-3deg);
+            border: 6px solid #0f172a;
+        }
+
+        .profile-container i {
+            font-size: 55px;
+            color: #1e40af;
+            transform: rotate(3deg);
+        }
+
+        .content {
+            padding: 10px 30px 40px;
+            text-align: center;
+        }
+
+        .action-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .main-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 16px;
+            border-radius: 22px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-size: 16px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .main-btn:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .btn-telegram { background: #0088cc; color: white; }
+        .btn-channel { background: #24A1DE; color: white; }
+        .btn-instagram { 
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            color: white; 
+        }
+        .btn-call { background: #10b981; color: white; }
+
+        .user-tag {
+            color: #3b82f6;
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .section-label {
+            color: #64748b;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            margin-top: 25px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-card">
+        <div class="hero-section">
+            <h1 class="text-3xl font-black tracking-tight">TALABA YORDAMCHI</h1>
+            <p class="opacity-90 text-sm mt-1 font-medium">Akademik muammolarga zamonaviy yechim</p>
+        </div>
+
+        <div class="profile-container">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+
+        <div class="content">
+            <div class="user-tag">@talabayordamchi_n1</div>
+            <p class="text-slate-400 text-xs font-medium">Barcha turdagi platforma va mustaqil ishlar</p>
+            
+            <div class="section-label">Ijtimoiy tarmoqlar</div>
+            <div class="action-group">
+                <!-- Telegram Kanal -->
+                <a href="https://t.me/talaba_yordamchi_n1" target="_blank" class="main-btn btn-channel">
+                    <i class="fas fa-paper-plane"></i> Telegram Kanal
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/talabayordamchi_n1?igsh=MW9ma2QwcmV0ZWYzMA%3D%3D&utm_source=qr" target="_blank" class="main-btn btn-instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+
+                <!-- Shaxsiy Telegram -->
+                <a href="https://t.me/talabayordamchi_n1" target="_blank" class="main-btn btn-telegram">
+                    <i class="fas fa-user-circle"></i> Shaxsiy bog'lanish
+                </a>
+                
+                <!-- Telefon -->
+                <a href="tel:+998700164437" class="main-btn btn-call">
+                    <i class="fas fa-phone-alt"></i> +998 70 016 44 37
+                </a>
+            </div>
+
+            <div class="mt-8 pt-5 border-t border-slate-800/50">
+                <p class="text-slate-500 text-[9px] uppercase tracking-[4px]">Ishonchli xizmat ko'rsatish markazi</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
