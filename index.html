@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talaba Yordamchi - @talabayordamchi_n1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.98);
+            width: 100%;
+            max-width: 400px;
+            border-radius: 35px;
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .top-banner {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .avatar-container {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 50%;
+            margin: 0 auto -60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            position: relative;
+            z-index: 10;
+            border: 6px solid #fff;
+        }
+
+        .avatar-container i {
+            font-size: 55px;
+            color: #1e40af;
+        }
+
+        .content {
+            padding: 75px 30px 40px;
+            text-align: center;
+        }
+
+        .service-card {
+            background: #f1f5f9;
+            border-radius: 18px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #e2e8f0;
+            text-align: left;
+        }
+
+        .service-card:hover {
+            border-color: #3b82f6;
+            background: #ffffff;
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .icon-box {
+            width: 45px;
+            height: 45px;
+            background: #dbeafe;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1e40af;
+            flex-shrink: 0;
+            font-size: 20px;
+        }
+
+        .action-buttons {
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px;
+            border-radius: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 17px;
+        }
+
+        .btn-tg {
+            background: #0088cc;
+            color: white;
+            box-shadow: 0 8px 20px -5px rgba(0,136,204,0.5);
+        }
+
+        .btn-call {
+            background: #10b981;
+            color: white;
+            box-shadow: 0 8px 20px -5px rgba(16,185,129,0.5);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            filter: brightness(1.1);
+        }
+
+        .verify-badge {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: rgba(255,255,255,0.25);
+            padding: 6px 14px;
+            border-radius: 25px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            backdrop-filter: blur(8px);
+        }
+
+        .footer-tag {
+            color: #1e40af;
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 5px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="top-banner">
+            <div class="verify-badge">
+                <i class="fas fa-check-circle mr-1"></i> Rasmiy
+            </div>
+            <h2 class="text-xl font-light tracking-wide opacity-80">Akademik Xizmatlar</h2>
+            <h1 class="text-3xl font-extrabold mt-2 tracking-tight">TALABA YORDAMCHI</h1>
+        </div>
+
+        <div class="avatar-container">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+
+        <div class="content">
+            <span class="footer-tag">@talabayordamchi_n1</span>
+            <p class="text-gray-500 text-sm mb-8">Sifatli, ishonchli va tezkor xizmat ko'rsatamiz!</p>
+
+            <div class="services-list">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-laptop"></i></div>
+                    <div>
+                        <div class="font-bold text-gray-800">Platforma Ishlari</div>
+                        <div class="text-xs text-gray-500">HEMIS, Moodle va boshqalar</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-edit"></i></div>
+                    <div>
+                        <div class="font-bold text-gray-800">Mustaqil ish & Referat</div>
+                        <div class="text-xs text-gray-500">Har qanday fandan sifatli</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-chart-line"></i></div>
+                    <div>
+                        <div class="font-bold text-gray-800">Amaliyot & Kurs ishi</div>
+                        <div class="text-xs text-gray-500">Institut talablariga mos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <!-- Telegram Tugmasi -->
+                <a href="https://t.me/talabayordamchi_n1" target="_blank" class="btn btn-tg">
+                    <i class="fab fa-telegram-plane"></i> Telegramga yozish
+                </a>
+                
+                <!-- Telefon Tugmasi -->
+                <a href="tel:+998700164437" class="btn btn-call">
+                    <i class="fas fa-phone-alt"></i> +998 70 016 44 37
+                </a>
+            </div>
+
+            <p class="text-center text-[10px] text-gray-400 mt-6 uppercase tracking-widest">
+                Professional Ta'lim Yordamchisi © 2024
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
